@@ -30,34 +30,30 @@ dependencies {
 }
 
 sourceSets {
-    main.java.srcDirs += 'src'
-    main.java.srcDirs += 'src/main/java'
-    main.java.srcDirs += 'src/main/kotlin'
-    main.java.srcDirs += 'src/main/resources'
-    test.java.srcDirs += 'src/main/java/test'         //test is specific
-    test.java.srcDirs += 'src/main/kotlin/test'
-}
-
-eclipse {
-    classpath {
-        sourceSets -= [sourceSets.main, sourceSets.test]
+    main {
+        java { srcDirs = ['src'] }
     }
 }
+
 
 application {
     //Define the main class for the application.
-    mainClassName    = 'conway26Java.MainConwayLifeJava'
+    mainClassName = 'main.java.conway.MainConwayLifeJava'
 }
 
 jar {
-    println("building jar")
-    from sourceSets.main.allSource
-    from('./') {
-      include '*.pl'
-      include '*.json'
-    }
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
     manifest {
         attributes 'Main-Class': "$mainClassName"
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    // Include file .pl, .json e altre risorse grafiche
+    from('src') {
+        include '**/*.pl'
+        include '**/*.json'
+        include '**/*.png' 
     }
 }
  
