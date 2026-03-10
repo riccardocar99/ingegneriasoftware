@@ -1,0 +1,26 @@
+!SESSION 2026-03-10 14:12:54.519 -----------------------------------------------
+eclipse.buildId=4.38.0.20251204-0849
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=it_IT
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/riccardocarini/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/riccardocarini/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2026-03-10 14:12:55.418
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-03-10 14:13:10.411
+!MESSAGE Logback config file: /Users/riccardocarini/Library/CloudStorage/OneDrive-AlmaMaterStudiorumUniversitàdiBologna/UNIVERSITA'/UNIBO/Ingegneria Software/ingegneriasoftware/conway26GuiHtml/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.101.20251017-1242.xml
+!SESSION 2026-03-10 14:15:54.886 -----------------------------------------------
+eclipse.buildId=4.38.0.20251204-0849
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=it_IT
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/riccardocarini/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/riccardocarini/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2026-03-10 14:15:55.687
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-03-10 14:16:03.754
+!MESSAGE Logback config file: /Users/riccardocarini/Library/CloudStorage/OneDrive-AlmaMaterStudiorumUniversitàdiBologna/UNIVERSITA'/UNIBO/Ingegneria Software/ingegneriasoftware/conway26GuiHtml/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.101.20251017-1242.xml
